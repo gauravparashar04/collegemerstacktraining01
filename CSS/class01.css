@@ -1,0 +1,13 @@
+p{
+    background-color: rgb(123, 126, 221);
+}
+ div p{
+    background-color: rgb(173, 97, 97);
+ }
+ .hero{
+    background-color: rgb(235, 199, 56);
+ }
+ #para{
+    background-color: rgb(81, 81, 111);
+    color:aliceblue
+ }
