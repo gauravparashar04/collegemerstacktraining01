@@ -1,5 +1,10 @@
 
+div{
+    background-color: lightseagreen;
+    height:100%;
+    width:100%
 
+}
 div img{
     border: 2px solid red;
      height: 100px;

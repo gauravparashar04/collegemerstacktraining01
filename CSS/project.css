@@ -1,4 +1,4 @@
-
+/* 
 body {
   font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   line-height: 1.7;
@@ -71,4 +71,140 @@ footer p {
   color: #666;
   margin: 0.5em 0;
   line-height: 1.4;
+} */
+
+/* GENERAL STYLES */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
 }
+
+/* HEADER */
+header {
+    display: flex; /* Flexbox */
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+    border-bottom: 3px solid #ff9800; /* Border property */
+    position: sticky; /* Position property */
+    top: 0;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+}
+
+#logo img {
+    margin-right: 10px; /* Margin */
+    border-radius: 8px; /* Border property */
+}
+
+/* NAVIGATION */
+nav a {
+    color: white;
+    text-decoration: none; /* Text property */
+    margin: 0 10px; /* Margin */
+    padding: 5px 10px; /* Padding */
+    border-radius: 4px; /* Border property */
+}
+
+nav a:hover {
+    background: #ff9800;
+}
+
+/* FEATURED SECTION */
+#featured {
+    background: #f4f4f4;
+    padding: 20px;
+    margin: 20px; /* Margin */
+    border: 2px solid #ccc; /* Border property */
+}
+
+#featured h2 {
+    text-align: center; /* Text property */
+    color: #333;
+}
+
+#featured article {
+    padding: 15px;
+    border-left: 5px solid #ff9800; /* Border */
+}
+
+/* MAIN SECTION */
+#main-content {
+    display: flex; /* Flexbox */
+    justify-content: space-around;
+    margin: 20px;
+}
+
+#main-content article {
+    flex: 1;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ddd; /* Border */
+    border-radius: 8px;
+}
+
+/* WRITE BLOG */
+#write-blog {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #333; /* Border */
+}
+
+#write-blog form {
+    display: flex;
+    flex-direction: column; /* Flexbox */
+}
+
+#write-blog input,
+#write-blog textarea {
+    margin: 5px 0; /* Margin */
+    padding: 10px; /* Padding */
+    border: 1px solid #aaa;
+}
+
+/* LOGIN SECTION */
+#login {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #555;
+    text-align: center; /* Text property */
+}
+
+/* FOOTER */
+footer {
+    background: #333;
+    color: white;
+    text-align: center; /* Text */
+    padding: 10px;
+    position: relative; /* Position */
+    bottom: 0;
+    width: 100%;
+}
+
+/* FLOAT Example */
+#logo img {
+    float: left; /* Float property */
+}
+
+/* GENERAL STYLES */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+
+    /* Background image */
+    background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e'); 
+    background-size: cover; /* Makes image cover full screen */
+    background-attachment: fixed; /* Parallax effect */
+    background-position: center; 
+    color: #222;
+}
+
