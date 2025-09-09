@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <style>
+        div{
+            width:100px;
+            height:100px;
+            background: red;
+            transition-property: width,height;
+            transition-duration: 5s;
+            transition-delay: 3s;
+            
+        }
+
+        div:hover{
+            height:300px;
+            width:300px;
+            background:purple;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>The Transition Property Property</h1>
+    <p>Hover over the div element below, to see the transition effect</p>
+    <div></div>
+</body>
+</html>
